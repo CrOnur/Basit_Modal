@@ -1,0 +1,43 @@
+<!doctype HTML>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Modal Yapımı">
+    <meta name="author" content="Onur Doğan">
+    <link rel="stylesheet" href="style.css"> 
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet"> 
+    
+    <title>Model Yapısı Örnek</title>
+</head>
+<body>
+    <div class="logo">
+        <p>Siteadresi</p>
+    </div>
+    <div class="portal">
+        <p>Bizi Tercih edin hayatınızı  <br> Korkmayın Hep yanınızdayız.</p>
+    </div>
+    <button id="modalBtn" class="btn">MODAL</button> 
+<div id="myModal" class="modal">
+    <div class="modalContent">
+        <div class="modalHeader">
+            <span id="close" class="close">&#9874;</span>
+        </div>
+        <div class="modalBody">
+            <div class="loginbox">
+                <img src="img/avatar.png" class="avatar">
+                <h1>LOGIN FORM</h1>
+                <form>
+                    <p>Username</p>
+                    <input type="text" name="username" placeholder="Enter Username">
+                    <p>Password</p>
+                    <input type="password" name="password" placeholder="Enter password">
+                    <input type="submit" name="submit" value="Login">
+                    <a href="#">Forget Password</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
